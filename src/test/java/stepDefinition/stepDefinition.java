@@ -15,6 +15,7 @@ public class stepDefinition {
 	 public void user_is_on_Netbanking_landing_page() throws Throwable
 	 {
 		 System.out.println("user is on netbanking");
+                 System.out.println("user launching netbanking");
 	 }
 	 @When("^user logging into application with username and password$")
 	 public void user_logging_into_application_with_username_and_password() throws Throwable
